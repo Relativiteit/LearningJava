@@ -18,9 +18,7 @@ public class Retirement2 {
     String input;
 
     //update account balance while user isn't ready to retire
-    do
-
-        {
+    do {
         // add this years's payment and interest
         balance += payment;
         double interest = balance * interestRate / 100;
@@ -30,7 +28,8 @@ public class Retirement2 {
         // print current balance
         System.out.print("Ready to retire? (Y/N)");
 
-        }
-        while (input.equals("N"));
+    }
+        while (in.equals("Y"));
+
     }
 }

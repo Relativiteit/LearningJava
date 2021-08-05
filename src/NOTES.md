@@ -9,7 +9,7 @@ final double CM_PER_INCH =2.54; {
 System.out.println(CM_PER_INCH)} 
 }
 ```
-##Data and Time COnversion Charecters 
+##Data and Time Conversion Charecters 
 you can add certain parameters to print statement to change the formatting of the output.
 
 ``` System.out.printf("%tc", new Date());

@@ -18,7 +18,7 @@ public class CompoundInterest
 
         // set initial balances to 10000
         for (int j = 0; j < balances[0].length; j++)
-            balances[0][j] = 10000;
+        {balances[0][j] = 10000;}
 
         // compute interest for future years
         for (int i = 1; i < balances[i].length; i++)

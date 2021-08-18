@@ -4,7 +4,8 @@ Chapter 3 Fundamental Programming Structures in Java
 
 public class CompoundInterest
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // pass args into main class, do it in the terminal java javac ~
+       System.out.println(args);
         final double STARTRATE = 10;
         final int NRATES = 6;
         final int NYEARS = 10;
@@ -35,10 +36,12 @@ public class CompoundInterest
                 balances[i][j] = oldBalance + interest;
 
             }
+            System.out.println("Inner loop finished Ravi");
         }
         // print one row of interest rates
         for (int j = 0; j < interestRate.length; j++)
-            System.out.printf("%9.0f%%", 100 * interestRate[j]);
+            System.out.printf("%10.2f", interestRate[j]); // check regular expresions between java versions
+
 
         System.out.println();
 
@@ -54,3 +57,7 @@ public class CompoundInterest
         }
     }
 }
+
+// convert everything into for each loops
+// how do you mention the steps in a for loop, how do you reverse a for each loop
+// j = interesRate.lenght; j--, traversing through a colleciton in reverse

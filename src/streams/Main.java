@@ -22,7 +22,7 @@ public class Main {
 
         // Declarative approach using Streams API
 
-        // Filter
+        // Filter builder pattern !!
         List<Person> females = people.stream()  //Extract variable with ctrl + alt + V
                 .filter(person -> person.getGender().equals(Gender.FEMALE))
                 .collect(Collectors.toList());      // collect the list

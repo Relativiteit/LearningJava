@@ -42,13 +42,14 @@ class Employee {
     public void raiseSalaryHigher(double byMargin) {
         double extra = (salary * byMargin)/100;
                 salary += extra;
-    }}
-
-
-    /* public void changeYear(int i) {
-        LocalDate loyal = hireDay;
-        loyal = hireDay.append.loyal.plusDays(i);
     }
-}
-*/
+
+
+    public void changeDay(long i) {
+       hireDay = hireDay.plusDays(i);
+
+
+}}
+
+
 

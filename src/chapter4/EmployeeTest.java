@@ -25,10 +25,10 @@ public class EmployeeTest {
                 e.raiseSalaryHigher(7);
             System.out.println("Salary after the reforms will be " + e.getSalary());
 
-           /* for (Employee d: staff) {
-                e.changeYear(4);
+            for (Employee d: staff) {
+                e.changeDay(4);
                 System.out.println("Extra years " + d.getHireDay());
-            } */
+            }
 
         }
         }

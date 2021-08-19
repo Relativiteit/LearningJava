@@ -4,9 +4,9 @@ import java.time.LocalDate;
 
 class Employee {
     // instance field
-    private String name;
-    private double salary;
-    private LocalDate hireDay;
+    protected String name;
+    protected double salary;
+    protected LocalDate hireDay;
 
     //constructor
     public Employee(String n, double s, int year, int month, int day) {

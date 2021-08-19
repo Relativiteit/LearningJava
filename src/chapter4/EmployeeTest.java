@@ -10,6 +10,8 @@ public class EmployeeTest {
             staff[1] = new Employee("Harry Dracker", 50000, 1989, 10, 1);
             staff[2] = new Employee("Tony Tester", 75000, 1987, 12, 15);
 
+           // Employee goat = new Employee("Goat", 250000, 0001, 1, 1); // error
+
             // raise everyone's salary by 5 % use for each loop
             System.out.println(Arrays.asList(staff));
             // use streams to print out the staff members, it can be a 'one liner'
@@ -27,12 +29,14 @@ public class EmployeeTest {
 
             for (Employee d: staff) {
                 e.changeDay(4);
-                System.out.println("Extra years " + d.getHireDay());
+                System.out.println("date" + d.getHireDay());
             }
 
         }
         }
     }
+
+
 
    /* class Employee
     {

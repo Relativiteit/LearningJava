@@ -28,7 +28,7 @@ public class CreateArrayListFromCollectionExample {
         nextFivePrimeNumbers.add(23);
         nextFivePrimeNumbers.add(29);
         System.out.println((nextFivePrimeNumbers));
-
+        // using addAll method to add elements of next
         firstTenPrimeNumbers.addAll(nextFivePrimeNumbers);
         System.out.println(firstTenPrimeNumbers);
 

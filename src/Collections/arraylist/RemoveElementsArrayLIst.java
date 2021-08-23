@@ -2,7 +2,9 @@ package Collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// remove()
+// removeALl()
+// clear()
 public class RemoveElementsArrayLIst {
     public static void main(String[] args)
     {
@@ -30,12 +32,12 @@ public class RemoveElementsArrayLIst {
         subAlcoholList.add("Whodka");
 
 
-
         alcohol.removeAll(subAlcoholList);
         System.out.println(alcohol +" is a delicacy for some people in the world " );
 
 
-
+        alcohol.clear();
+        System.out.println(alcohol);
 
 
 

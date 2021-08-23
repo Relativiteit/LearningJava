@@ -33,6 +33,7 @@ public class CollectionDemo {
         System.out.println(bikeCollection.isEmpty());
         bikeCollection.clear();
         System.out.println(bikeCollection.isEmpty());
+        System.out.println(bikeCollection);
 
 
 

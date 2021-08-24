@@ -1,4 +1,4 @@
-// abstract class, every method does not need to be
+package firsttwochapters;// abstract class, every method does not need to be
 // implemented to use Crashable class
 
 public abstract class Crashable {

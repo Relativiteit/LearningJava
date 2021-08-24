@@ -1,9 +1,8 @@
-package Collections.interfaces;
+package collections.interfaces;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Iterator;
 
 public class CollectionDemo {
     public static void main(String[] args)

@@ -1,3 +1,5 @@
+package firsttwochapters;
+
 public class Vehicle extends Crashable implements  Drivable  {
 
     int numOfWheels = 2;

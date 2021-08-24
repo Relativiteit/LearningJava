@@ -1,4 +1,4 @@
-package Collections.Sorting;
+package collections.sorting;
 
 public class Employee {
     private int id;

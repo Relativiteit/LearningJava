@@ -1,5 +1,4 @@
-package Collections;
-import java.util.*;
+package collections;
 
 public class NeedOfCollection {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-// interface names should be adjectives because they transform objects that are usually nouns.
+package firsttwochapters;// interface names should be adjectives because they transform objects that are usually nouns.
 
 public interface Drivable {
     double PI = 3.14;

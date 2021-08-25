@@ -1,5 +1,6 @@
 package collections.linkedlist;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 // check if in list
 // first occurrence
@@ -37,10 +38,26 @@ public class LinkedListSearchIterationExample {
         System.out.println(lastindex);
 
         // iterator
-        sauce.iterator()
-        // for each
-        // for each advance loop
-        // simple loop
+        Iterator<String> iterator = sauce.iterator();
+        while (iterator.hasNext()) {
+            String drink = (String) iterator.next();
+            System.out.println("iterator "+ drink);
 
+        }
+        // for each
+        sauce.forEach((drink) -> {
+            System.out.println("forEach lambda " + drink);
+
+        });
+
+        // for each advance loop
+        for(String drink: sauce) {
+            System.out.println("advanced " + drink);
+        }
+        // simple loop
+        for(int i=0; i< sauce.size(); i++){
+            System.out.println("simple loop " + i);
+
+        }
     }
 }

@@ -54,10 +54,11 @@ public class LinkedListSearchIterationExample {
         for(String drink: sauce) {
             System.out.println("advanced " + drink);
         }
-        // simple loop
+        // simple loop not pretty ...
         for(int i=0; i< sauce.size(); i++){
-            System.out.println("simple loop " + i);
+            System.out.println("simple loop " + sauce.get(i));
 
         }
+
     }
 }

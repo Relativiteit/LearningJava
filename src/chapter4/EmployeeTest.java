@@ -1,14 +1,16 @@
 package chapter4;
-import java.time.*;
+
+
+import java.time.LocalDate;
 import java.util.Arrays;
 // class encapsulation you don't leak the property of the class
 public class EmployeeTest {
     public static void main(String[] args) // make a program that excepts main arguments
         { // fill the staff array with three Employee objects
-            Employee[] staff = new Employee[3];
-            staff[0] = new Employee("Carl Cracker", 75000, 1987, 12, 15);
-            staff[1] = new Employee("Harry Dracker", 50000, 1989, 10, 1);
-            staff[2] = new Employee("Tony Tester", 75000, 1987, 12, 15);
+           WorkerBee[] staff = new WorkerBee[3];
+            staff[0] = new WorkerBee("Carl Cracker", 75000, 1987, 12, 15);
+            staff[1] = new WorkerBee("Harry Dracker", 50000, 1989, 10, 1);
+            staff[2] = new WorkerBee("Tony Tester", 75000, 1987, 12, 15);
 
            // Employee goat = new Employee("Goat", 250000, 0001, 1, 1); // error
 
@@ -16,19 +18,19 @@ public class EmployeeTest {
             System.out.println(Arrays.asList(staff));
             // use streams to print out the staff members, it can be a 'one liner'
 
-            for (Employee e: staff)
+            for (WorkerBee e: staff)
                  e.raiseSalary(5);
              //print out information about all Employee objects
-            for (Employee e: staff) {
+            for (WorkerBee e: staff) {
                 System.out.println("name=" + e.getName() + ",salary="  + e.getSalary() + e.getHireDay());
             }
-
-            for (Employee e: staff) {
-                e.raiseSalaryHigher(7);
+            // salary after applyiing raise
+            for (WorkerBee e: staff) {
+                e.raiseSalary(7);
             System.out.println("Salary after the reforms will be " + e.getSalary());
-
-            for (Employee d: staff) {
-                e.changeDay(4);
+            // extra enhandced loop in employee for hireday
+            for(WorkerBee d: staff){
+                d.getHireDay();
                 System.out.println("date" + d.getHireDay());
             }
 
@@ -37,8 +39,7 @@ public class EmployeeTest {
     }
 
 
-
-   /* class Employee
+    class Employee
     {
         private String name;
         private double salary;
@@ -57,4 +58,3 @@ public class EmployeeTest {
             salary += raise;}
 
     }
-*/

@@ -2,14 +2,14 @@
 package chapter4;
 import java.time.LocalDate;
 
-class Employee {
+class WorkerBee {
     // instance field
     protected String name;
     protected double salary;
     protected LocalDate hireDay;
 
     //constructor
-    public Employee(String n, double s, int year, int month, int day) {
+    public WorkerBee(String n, double s, int year, int month, int day) {
         name = n;
         salary = s;
         hireDay = LocalDate.of(year, month, day);

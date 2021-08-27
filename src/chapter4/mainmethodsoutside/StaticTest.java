@@ -29,6 +29,7 @@ class Employeeforlife
     private double salary;
     private int id;
 
+
     public Employeeforlife(String n, double s)
     {
         name = n;

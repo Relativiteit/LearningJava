@@ -1,6 +1,4 @@
-package collections.inheritance;
-
-import collections.hashmap.Student;
+package chapter5.inheritance;
 
 public class PersonTest {
     public static void main(String[] args)

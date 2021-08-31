@@ -1,4 +1,4 @@
-package collections.inheritance;
+package chapter5.inheritance;
 
 import java.time.*;
 

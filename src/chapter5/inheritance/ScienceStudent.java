@@ -1,4 +1,4 @@
-package collections.inheritance;
+package chapter5.inheritance;
 
 public class ScienceStudent extends Person{
     private String major;

@@ -35,7 +35,7 @@ public class Employee implements Cloneable
 
     public void setHireDay(int year, int month, int day)
     {
-        Date newHireDay = new GregorianCalendar(year, month - 1, day);
+        Date newHireDay = new GregorianCalendar(year, month -1, day);
                 // example of instance field mutation
         hireDay.setTime(newHireDay.getTime());
     }
